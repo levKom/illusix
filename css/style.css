@@ -1,0 +1,61 @@
+main #cardList .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main #cardList .cards .card {
+  min-width: 30%;
+  height: 100px;
+  margin: 10px;
+}
+
+main #cardList .cards .card .cardHeader {
+  font-weight: bold;
+  height: 25px;
+  background: #f8f8f8;
+  text-align: center;
+}
+
+main #cardList .cards .card .card-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main #cardList .cards .card .card-row span {
+  margin: 10px;
+}
+
+main #cardCreate {
+  margin-top: 150px;
+}
+
+main #cardCreate .eventForm .btnFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+main #cardCreate .eventForm .btnFlex .btn {
+  background: #ff3c00;
+  color: white;
+  text-transform: uppercase;
+  padding: 6px 40px;
+}
+
+main #cardCreate .form-control {
+  background: #f8f8f8;
+}
+/*# sourceMappingURL=style.css.map */
