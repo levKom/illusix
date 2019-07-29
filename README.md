@@ -1,2 +1,1 @@
-# https://levkom.github.io/
-illusix task
+# illusix task
